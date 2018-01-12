@@ -1,1 +1,10 @@
+A greedy algorithm is an algorithmic paradigm that follows the problem solving heuristic of making the locally
+optimal choice at each stage[1] with the hope of finding a global optimum. In many problems, a greedy strategy
+does not in general produce an optimal solution, but nonetheless a greedy heuristic may yield locally optimal
+solutions that approximate a global optimal solution in a reasonable time.
 
+For example, a greedy strategy for the traveling salesman problem (which is of a high computational complexity)
+is the following heuristic: "At each stage visit an unvisited city nearest to the current city". This heuristic
+need not find a best solution, but terminates in a reasonable number of steps; finding an optimal solution typically
+requires unreasonably many steps. In mathematical optimization, greedy algorithms solve combinatorial problems
+having the properties of matroids.
